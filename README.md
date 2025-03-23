@@ -64,11 +64,15 @@ To find any missing QR codes, run the `qrChecker.py` script. It will log missing
 python qrChecker.py
 ```
 
-### 3. Configure the Event Name
+### 3. Test Invalid QR Codes
+
+A folder named `QR_new` contains test QR codes that do not match the actual event name. This ensures that if someone attempts to check in using a QR code from another event, it will be rejected.
+
+### 4. Configure the Event Name
 
 If you'd like to change the event name, go to **line 195 in ****`index.js`** and update the name as needed.
 
-### 4. Start the Server
+### 5. Start the Server
 
 Start the Node.js server using the following command:
 
@@ -78,7 +82,7 @@ node server.js
 
 The server will run at `http://localhost:3000`
 
-### 5. Access the Web Application
+### 6. Access the Web Application
 
 Open your browser and go to:
 
@@ -96,6 +100,7 @@ http://localhost:3000
 ├── qrChecker.py          # QR Code Checker
 ├── server.js             # Backend Server
 ├── students.xlsx         # Student Registration Data
+├── QR_new                # Test QR Codes (Invalid Event Names)
 └── README.md             # Project Documentation
 ```
 
