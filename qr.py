@@ -12,7 +12,7 @@ output_folder = "qr_codes"
 os.makedirs(output_folder, exist_ok=True)
 
 # Define the event name (modify this as needed)
-event_name = "Sudha Vargese Session"
+event_name = "Old Age Home"
 
 # Generate QR code for each student
 for index, row in df.iterrows():
