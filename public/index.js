@@ -192,7 +192,7 @@ function processScanData(data) {
     loading.className = "loading-indicator show";
     
     // Define the expected event name
-    const expectedEvent = "Yoga Session"; // Change this to your event name
+    const expectedEvent = "Animal Shelter"; // Change this to your event name
     
     // Parse QR data
     let rollNumber, name, nssGroup, event;
